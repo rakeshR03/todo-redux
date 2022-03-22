@@ -1,0 +1,54 @@
+.addtodo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    
+}
+
+.form-add-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+}
+.form-add-container input{
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    font-size: 19px;
+}
+.form-add-container button{
+    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form-add-container button:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 425px){
+    
+    .form-add-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .form-add-container input{
+        width: 80vw;
+    }
+    .form-add-container button{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}

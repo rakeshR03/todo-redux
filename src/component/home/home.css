@@ -1,0 +1,30 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.navbar-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.link{
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+

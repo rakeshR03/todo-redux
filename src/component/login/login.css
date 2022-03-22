@@ -1,0 +1,29 @@
+.login-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 5px; 
+    
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-container>*{
+    margin: 8px;
+    padding: 8px 16px;
+}
+
+@media screen and (max-width: 425px){
+    .login-container{
+        width: 90vw;
+    }
+}
